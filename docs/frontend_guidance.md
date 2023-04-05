@@ -1,4 +1,5 @@
-# Knowledge transfer document for GPT-ALE UI 
+# Documentation for GPT-ALE UI 
+
 ## GPT-ALE UI  Directory List Introductions
 ![image](./images/ui_layout.png)
 
@@ -23,19 +24,19 @@ This component will create msalInstance from configuration files.
 This component will fetch UI version infor and build timestamp from configuration
 			
 ### HeaderBar
-![image](../images/ui_header_bar.png)
+![image](./images/ui_header_bar.png)
 
 This component contains JobsProgress component, and will fetch Job progress every 30 seconds.
 			
 ### JobsProgress
-![image](../images/ui_progress.png)
+![image](./images/ui_progress.png)
 
 This component will automatically fetch and persist job status in global storage.
 
 			
 ### Loading
 
-![image](../images/ui_loading.png)
+![image](./images/ui_loading.png)
 
 When routed to a new URI, a progress bar will show up.
 
@@ -49,7 +50,7 @@ nprogress.configure({
 })
 ```
 ### SiderMenu
-![image](../images/ui_side_bar.png)
+![image](./images/ui_side_bar.png)
 
 This component displays and controls the content of the main menu. The width will automatically adjust when the screen width is less than 992px.
 
@@ -61,7 +62,7 @@ This component displays and controls the content of the main menu. The width wil
 
 ### PagePanel
 
-![image](../images/ui_page_panel.png)
+![image](./images/ui_page_panel.png)
 A header with common actions and design elements built in.
 
 | Property      | Description | Type     | DefaultValue
