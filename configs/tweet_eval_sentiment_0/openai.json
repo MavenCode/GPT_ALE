@@ -1,0 +1,6 @@
+{"openai":
+    {
+        "endpoint": "https://azopenaipocs.openai.azure.com/openai/deployments/text-curie-001/completions?api-version=2022-06-01-preview",
+        "api_key": "556266146da8462185bd4002c545fb23"
+    }
+}
